@@ -124,8 +124,8 @@ public class ChuViDienTich extends javax.swing.JFrame {
         float bankinh = Float.parseFloat(txtBanKinh.getText());
         float dientich = (float) (bankinh * bankinh * Math.PI);
         float chuvi = (float)(2 * Math.PI * bankinh);
-        txtChuVi.setText(String.format("%2f",chuvi));
-        txtDienTich.setText(String.format("%2f",dientich));
+        txtChuVi.setText(String.format("%.2f",chuvi));
+        txtDienTich.setText(String.format("%.2f",dientich));
     }//GEN-LAST:event_btnTinhToanActionPerformed
 
     /**
